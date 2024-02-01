@@ -21,7 +21,6 @@
 <h2>Usage</h2>
 <ul>
   <li>On the main screen, you will see a list of TV shows.</li>
-<<<<<<< HEAD
   <li>Click on view more button to view its summary and book tickets.</li>
   <li>Fill in the required details in the form and submit to book tickets.</li>
 </ul>
