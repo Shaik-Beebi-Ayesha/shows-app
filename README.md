@@ -4,7 +4,7 @@
 <br/>
 <h2>Features</h2>
 <ul>
-  <li>Fetches TV show data from the TVMaze API</li>
+<li>Fetches TV show data from the TVMaze API</li>
 <li>Displays a list of TV shows with their names and details</li>
 <li>Allows users to click on a show to view its summary and book tickets</li>
 <li>Stores user details using local storage</li>
@@ -21,6 +21,7 @@
 <h2>Usage</h2>
 <ul>
   <li>On the main screen, you will see a list of TV shows.</li>
+  <li>Search the shows you want to watch.</li>
   <li>Click on view more button to view its summary and book tickets.</li>
   <li>Fill in the required details in the form and submit to book tickets.</li>
 </ul>
@@ -56,6 +57,6 @@
 <p>The application uses the TVMaze API to fetch TV show data. The API endpoint used is:</p>
 <pre>https://api.tvmaze.com/search/shows?q=all</pre>
 <br/>
-<h2>Contributing</h2>
+<h2>Contributions</h2>
 <p>Contributions are welcome! If you find any issues or have suggestions for improvement, please open an issue or submit a pull request.</p>
 
