@@ -1,70 +1,60 @@
-# Getting Started with Create React App
+<h1>TV Show Information App</h1>
+<br/>
+<p>This is a simple React JS application that fetches TV show information from the TVMaze API and displays it in a user-friendly format. The app consists of two screens: one for displaying a list of TV shows and their details, and another for showing the summary of a selected show and allowing users to book tickets for it.</p>
+<br/>
+<h2>Features</h2>
+<ul>
+  <li>Fetches TV show data from the TVMaze API</li>
+<li>Displays a list of TV shows with their names and details</li>
+<li>Allows users to click on a show to view its summary and book tickets</li>
+<li>Stores user details using local storage</li>
+</ul>
+<br/>
+<h2>Technologies Used</h2>
+<ul>
+  <li>React JS</li>
+  <li>Axios (for making API requests)</li>
+  <li>React Router (for navigation)</li>
+  <li>Bootstrap (for styling)</li>
+</ul>
+<br/>
+<h2>Usage</h2>
+<ul>
+  <li>On the main screen, you will see a list of TV shows.</li>
+  <li>Click on view more button to view its summary and book tickets.</li>
+  <li>Fill in the required details in the form and submit to book tickets.</li>
+</ul>
+<h2>Screenshots</h2>
+<br/>
+<h4>Main screen showing a list of TV shows</h4>
+<img src='./public/Screenshot (209).png'/>
+<h4>Show details Screen</h4>
+<img src='./public/Screenshot (210).png'/>
+<h4>Ticket Booking form</h4>
+<img src='./public/Screenshot (211).png'/>
+<h2>Project Structure</h2>
+<p>The project follows a typical React JS file structure:</p>
+<pre>
+  tv-show-app/
+  ├── src/
+  │   ├── components/
+  │   │   ├── ShowList.js
+  │   │   ├── ShowDetails.js
+  │   │   ├── TicketBookingForm.js
+  │   ├── App.js
+  │   ├── index.js
+  │   ├── ...
+  ├── public/
+  │   ├── index.html
+  │   ├── ...
+  ├── package.json
+  ├── ...
+</pre>
+<br/>
+<h2>API Usage</h2>
+<p>The application uses the TVMaze API to fetch TV show data. The API endpoint used is:</p>
+<pre>https://api.tvmaze.com/search/shows?q=all</pre>
+<br/>
+<h2>Contributing</h2>
+<p>Contributions are welcome! If you find any issues or have suggestions for improvement, please open an issue or submit a pull request.</p>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
-
-## Available Scripts
-
-In the project directory, you can run:
-
-### `npm start`
-
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
-
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
