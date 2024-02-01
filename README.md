@@ -45,7 +45,7 @@
 <br/>
 <h2>API Usage</h2>
 <p>The application uses the TVMaze API to fetch TV show data. The API endpoint used is:</p>
-<a>https://api.tvmaze.com/search/shows?q=all</a>
+<pre>https://api.tvmaze.com/search/shows?q=all</pre>
 <br/>
 <h2>Contributing</h2>
 <p>Contributions are welcome! If you find any issues or have suggestions for improvement, please open an issue or submit a pull request.</p>
