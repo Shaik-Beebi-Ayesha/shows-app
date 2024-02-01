@@ -53,6 +53,6 @@
 <br/>
 <h4>Main screen showing a list of TV shows</h4>
 <br/>
-<img src='https://drive.google.com/file/d/145VbCE8HzpGYv_N20GNbGAFX6RWIxkzY/view?usp=sharing'/>
+<img src='https://app.gemoo.com/share/image-annotation/611563894032338944?codeId=DGaVB3K0VE8GE&origin=imageurlgenerator&card=611563891310235648'/>
 <h4>Show details Screen</h4>
 <h4>Ticket Booking form</h4>
